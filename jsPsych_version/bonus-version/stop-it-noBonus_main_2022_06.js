@@ -237,7 +237,7 @@ function generate_instruction_block() {
             '<div class = centerbox><p class = block-text>We will start with a short practice block in which you will receive immediate feedback. You will no longer receive immediate feedback in the next phases.</p>' +
             ' <p class = block-text>However, at the end of each experimental block, there will be a ' + (bFBT/1000).toString() + ' second break. During this break,' +
             // HMJ - modified these lines from the commented out lines below
-            ' we will show you some information about your mean performance in the previous block.</p></div>', + 
+            ' we will show you some information about how to improve your performnce.</p></div>', 
             '<div class = centerbox><p class = block-text>The experiment consists of 2 practice blocks and ' +
             NexpBL.toString() + ' main blocks.</p>' +
             '<div class = centerbox><p class = block-text>If you are ready, please click next to start the first practice with immediate, trial-by-trial feedback.</p></div>'
