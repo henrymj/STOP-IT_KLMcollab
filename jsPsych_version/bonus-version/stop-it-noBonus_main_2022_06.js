@@ -239,7 +239,7 @@ function generate_instruction_block() {
             // HMJ - modified these lines from the commented out lines below
             ' we will show you some information about how to improve your performnce.</p></div>', 
             '<div class = centerbox><p class = block-text>The experiment consists of 2 practice blocks and ' +
-            NexpBL.toString() + ' main blocks.</p>' +
+            NexpBL.toString() + ' main blocks.</p></div>', 
             '<div class = centerbox><p class = block-text>If you are ready, please click next to start the first practice with immediate, trial-by-trial feedback.</p></div>'
             // OLD
             // ' we will show you some information about your mean performance and the <font color=red><b>resulting performance-based bonus</b></font> in the previous block.</p></div>', // bonus_desc_page1, bonus_desc_page2, bonus_desc_page3, bonus_desc_page4, bonus_desc_page5,
