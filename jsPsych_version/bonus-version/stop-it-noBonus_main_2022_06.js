@@ -27,7 +27,7 @@ var fullscr_ON = 'no'; // tracks fullscreen activity, initially not activated
 // ----- CUSTOMISE THE STIMULI AND RESPONSES -----
 // define the site that hosts stimuli images
 // usually https://<your-github-username>.github.io/<your-experiment-name>/
-var repo_site = 'https://kywch.github.io/STOP-IT/jsPsych_version/';
+var repo_site = 'https://henrymj.github.io/STOP-IT_KLMcollab/jsPsych_version/';
 
 // locate the stimuli that will be used in the experiment
 var fix_stim = repo_site + 'images/fix.png';
