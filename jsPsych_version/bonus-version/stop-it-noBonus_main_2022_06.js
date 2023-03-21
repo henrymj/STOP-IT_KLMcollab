@@ -65,12 +65,12 @@ var minHeight = 600; // minimum height of the experiment window
 // How many times should we repeat the basic design per block?
 // E.g. when NdesignReps = 8 and nprop = 1/4 (see above), the number of trials per block = 64 (8*8)
 // Do this for the practice and experimental phases (note: practice can never be higher than exp)
-var NdesignReps_practice = 1;//2; // TODO: undo these back to original settings.
-var NdesignReps_exp = 1;//5;
+var NdesignReps_practice = 2;
+var NdesignReps_exp = 5;
 
 // Number of experimental blocks (excluding the first practice block).
 // Note that NexpBl = 0 will still run the practice block
-var NexpBL = 1;//4;
+var NexpBL = 4;
 var prac_offset = 1; // accounting for the second practice
 
 // ----- CUSTOMISE THE TIME INTERVALS -----
