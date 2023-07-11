@@ -647,7 +647,7 @@ function generate_second_practice_block() {
         show_clickable_nav: true,
         on_finish: function () {
             // make sure not to grant bonus
-            grant_bonus = True;
+            grant_bonus = true;
         }
     };
     var trial_seq = {
