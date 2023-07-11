@@ -610,6 +610,7 @@ var block_feedback = {
         block_ind = block_ind + 1; // next block
 
         // HMJ modified - always reset block bonus to 0, don't compute total bonus
+        bonus = bonus + bonus_RT_comp(0);  // add the max bonus possible
         block_bonus = 0;
     }
 };
@@ -646,7 +647,7 @@ function generate_second_practice_block() {
         show_clickable_nav: true,
         on_finish: function () {
             // make sure not to grant bonus
-            grant_bonus = false;
+            grant_bonus = True;
         }
     };
     var trial_seq = {
